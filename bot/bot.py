@@ -3,6 +3,9 @@ import logging
 import json
 import math
 
+# fetch assignments from manually set URL
+import urllib.request
+
 from aiotg import Bot
 from database import db, text_search
 
